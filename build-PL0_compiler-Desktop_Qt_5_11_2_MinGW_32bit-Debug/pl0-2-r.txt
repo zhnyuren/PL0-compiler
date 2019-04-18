@@ -1,0 +1,15 @@
+const d = 10;
+var a,b,c;
+procedure test1;
+   const a = 2,b = 3;
+   procedure test2;
+      var a,b,c;
+      begin
+         read(a,b);
+         write(a,b)
+      end;
+   begin
+   write(a,b)
+   end;
+
+call test1.
